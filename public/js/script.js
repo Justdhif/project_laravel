@@ -25,3 +25,9 @@ searchContent.addEventListener('click', () => {
 searchBar.addEventListener('click', () => {
     location.href = 'search';
 })
+
+const premiumPage = document.querySelector('.premium');
+
+premiumPage.addEventListener('click', () => {
+    location.href = 'premium';
+})

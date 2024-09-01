@@ -25,9 +25,3 @@ Route::get('/search', function () {
     return view('search');
 });
 
-Route::prefix('admin')->group(function(){
-    Route::get('/home/{nama}', function(Request $request, $nama="aa") {
-        return "ini halaman home untuk admin " .$nama;
-    });
-});
-
